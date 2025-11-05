@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004d99; /* Bleu foncé (couleur UE/visa) */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffcc00; /* Bande jaune */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: #004d99;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Style de la Table des Prix */
+#tarifs table {
+    width: 100%;
+    max-width: 750px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#tarifs th, #tarifs td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#tarifs th {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+#tarifs tr:nth-child(even) {
+    background-color: #eaf1f7;
+}
+
+/* Style de la section Garantie */
+#garantie {
+    background-color: #e6f7e6; /* Fond vert clair pour rassurer */
+    border: 1px solid #00b894;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#garantie ul {
+    list-style-type: '👉 ';
+    padding-left: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #00b894; /* Vert vif pour l'action */
+    color: white;
+    padding: 18px 35px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #00a080;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    font-size: 0.8em;
+    color: #777;
+}
